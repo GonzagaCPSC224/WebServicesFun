@@ -2,6 +2,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 import java.util.List;
 
 public class Controller {
@@ -9,6 +11,7 @@ public class Controller {
     View view;
     List<InterestingPhoto> interestingPhotosList;
     int currPhotoIndex = -1;
+    Image currImage; // save this in case the user resizes the window, we still have the original high res image
 
     public Controller() {
         flickrAPI = new FlickrAPI(this);
@@ -20,6 +23,15 @@ public class Controller {
                 nextPhoto();
             }
         });
+        view.imageLabel.addComponentListener(new ComponentAdapter() {
+            @Override
+            public void componentResized(ComponentEvent e) {
+                super.componentResized(e);
+                ImageIcon icon = view.getScaledImageIcon(currImage);
+                view.imageLabel.setIcon(icon);
+            }
+        });
+
         view.progressBar.setIndeterminate(true);
         flickrAPI.fetchInterestingPhotos();
     }
@@ -32,6 +44,7 @@ public class Controller {
     }
 
     public void receivedPhotoImage(Image image) {
+        currImage = image;
         ImageIcon icon = view.getScaledImageIcon(image);
         SwingUtilities.invokeLater(() -> {
             view.imageLabel.setIcon(icon);

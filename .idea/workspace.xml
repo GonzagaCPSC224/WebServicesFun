@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f13da971-1adb-4c6c-b7d9-9aa37b70ec52" name="Default Changelist" comment="" />
+    <list default="true" id="f13da971-1adb-4c6c-b7d9-9aa37b70ec52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/Controller$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/Controller$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/FlickrAPI$FetchImageThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/FlickrAPI$FetchImageThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/FlickrAPI$FetchInterestingPhotosThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/FlickrAPI$FetchInterestingPhotosThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/FlickrAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/FlickrAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/InterestingPhoto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/InterestingPhoto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Web Services Fun/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Web Services Fun/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,11 +30,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1U2oUgljjbbddVFjJTb7OYOIaNY" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.19729728" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,5 +79,18 @@
       <updated>1574564069217</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

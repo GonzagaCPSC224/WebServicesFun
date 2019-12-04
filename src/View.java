@@ -1,5 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 
 public class View extends JFrame {
     static final int FONT_SIZE = 18;
@@ -15,7 +17,7 @@ public class View extends JFrame {
         super("Flickr Interesting Photos");
         controller = c;
 
-        setPreferredSize(new Dimension(400, 400));
+        setPreferredSize(new Dimension(800, 600));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setupUI();
         pack();
